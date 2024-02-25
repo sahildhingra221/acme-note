@@ -13,7 +13,7 @@
 
 A SaaS company Landing Page to provide Note App Features Information and Seamless Onboarding process for the user.
 
-[Acme Note - Demo](https://acme-note.netlify.app)
+[Acme Note - Demo](https://acme-note-app.netlify.app/)
 
 ![App Screenshot](https://ik.imagekit.io/sahildhingra/Capture.PNG)
 ## Tech Stack | Framework | Features
