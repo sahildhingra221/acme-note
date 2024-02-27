@@ -26,6 +26,21 @@ const index = () => {
         <meta name="description" content="Discover the ultimate notes app that helps you organize your thoughts effortlessly. Take notes, set reminders, and stay organized on any device." />
         <meta name="keywords" content="notes app, note-taking, productivity app, organization, reminders, task management" />
         <meta name="author" content="Acme Corporation" />
+        {/* Google tag (gtag.js)  */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-EH176242C9"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-EH176242C9');
+            `,
+          }}
+        />
       </Head>
       <Header />
       <HeroBanner />
